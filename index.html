@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Reira</title>
+    <!-- BOOTSTRAP CDN-->
+    <link rel="stylesheet" href="C:\Users\Zancrow\Desktop\Mi-Repo\bootstrap.min.css">
+</head>
+<body>
+    <!-- NAVEGACION-->
+    <nav class="navbar navbar-light bg-dark">
+<a href="/" class="navbar-brand">
+Reira Products
+</a>
+    </nav>
+    
+    <div class="container">
+        <!--APLICACION-->
+        <div id="App" class="row pt-5">
+            <h1>Aplication</h1>
+            <div class="col-md-4">
+<div class="card">
+    <div class="card-header">
+        <h4>Add A Product</h4>
+
+    </div>
+   
+<form id="product-form" class="card-body" action ="">
+<div class="form-group">
+    <input type="text" id="name" placeholder="Products Name" class="form-control">
+</div>
+<div class="form-group">
+<input type="number" id="price"  step="0.01" placeholder="Product Price" class="form-control">
+</div>
+<div class="form-group">
+<input type="number" id="year" value="2010" min="2000" placeholder="Ano del producto" class="form-control">
+</div>
+<input type="submit" value="Save" class="btn btn-primary btn-block">
+</form>
+   
+</div>
+            </div>
+         
+<div id="product-list" class="col-md-8">
+
+</div>
+           
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
